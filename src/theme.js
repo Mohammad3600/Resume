@@ -16,6 +16,7 @@ const theme = createTheme({
             textTransform: "uppercase"
         },
         h5:{
+            fontSize: "1.5rem",
             textTransform: "uppercase"
         },
         h6:{

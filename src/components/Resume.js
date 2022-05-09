@@ -42,6 +42,9 @@ const useStyles = makeStyles(theme=>({
         margin: "auto",
         height:200,
         marginBottom: "1rem"
+    },
+    textAlignCenter:{
+        textAlign: 'center'
     }
 }));
 
@@ -74,7 +77,7 @@ const Resume = React.forwardRef((props, ref) => {
   return (
     <Container ref={ref} m={0} className={classes.container}>
         <Box className={classes.box1}>
-            <Avatar className={classes.imgStyles} alt="Mohammad" src={Mohammad} />
+            <Avatar className={classes.imgStyles} alt="img" src={Mohammad} />
             
             <Grid container className={classes.innerContainer} direction={"column"}>
             <Typography className={classes.sideHeadingColor} variant='h5'>Contact</Typography>
@@ -82,7 +85,7 @@ const Resume = React.forwardRef((props, ref) => {
                 {contact.map((item,i)=>(
                     <Grid container item className={classes.flexWrap} alignItems="center">
                         <Typography style={{padding: "0 10px"}} variant="body1">{item.icon}</Typography>
-                        <Typography style={{padding: "0 10px", wordBreak: "break-all;"}} variant="body1">{i==2 ? <Link target="_blank" style={{color:"#fff", wordBreak: "break-all;", textDecoration: "underline"}} href={item.text}>{item.text}</Link> : item.text}</Typography>
+                        {i==2 ? <Link target="_blank" style={{color:"#fff", fontSize:"0.8rem", wordBreak: "break-all;", textDecoration: "underline"}} href={item.text}>{item.text}</Link> :<Typography style={{padding: "0 10px", wordBreak: "break-all;"}} variant="body1">{item.text}</Typography>}
                     </Grid>
                 ))
                 }
@@ -115,10 +118,10 @@ const Resume = React.forwardRef((props, ref) => {
         </Box>
         <Grid container className={classes.box2} direction="column" alignItems='center'>
             <Grid item>
-                <Typography variant='h2'>{name}</Typography>
+                <Typography className={classes.textAlignCenter}  variant='h2'>{name}</Typography>
             </Grid>
             <Grid item>
-                <Typography variant='h4'>{designation}</Typography>
+                <Typography className={classes.textAlignCenter} variant='h4'>{designation}</Typography>
             </Grid>
             <Grid item container direction='column'>
                 <Typography variant='h6'>Professional Summary</Typography>
@@ -220,12 +223,12 @@ const education = [
     },
     {
         standard: "Intermediate Education",
-        institution: "Srinivasa Junior College | 2014-2026",
+        institution: "Srinivasa Junior College | 2014-2016",
         percentage: "94.7%"
     },
     {
         standard: "Secondary Education",
-        institution: "MJPAP School | 2014-2026",
+        institution: "MJPAP School | 2013-2014",
         percentage: "88%"
     },
 ]
