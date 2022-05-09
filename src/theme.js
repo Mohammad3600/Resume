@@ -3,6 +3,7 @@ import { createTheme } from "@material-ui/core";
 const theme = createTheme({
     typography:{
         h2:{
+            fontSize: "3rem",
             color: "#00216d",
             fontWeight: 600,
             letterSpacing: "3px",

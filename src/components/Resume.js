@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme=>({
         padding:0
     },
     box1:{
-        width:"25vw",
+        width:"30vw",
         background: "#001e6f !important",
         height:"100%",
         padding: "2rem",
@@ -23,9 +23,10 @@ const useStyles = makeStyles(theme=>({
         color:"#000 !important"
     },
     box2:{
-        width: "75vw",
+        width: "70vw",
         height:"100%",
         padding: "2rem",
+        // margin: "auto"
     },
     innerContainer:{
         padding: "0.9rem 0 1.2rem 0"
