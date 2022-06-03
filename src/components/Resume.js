@@ -172,7 +172,7 @@ const sideBarContents = [
     },
     {
         title: "Professional Summary-Exposure",
-        list: "Node JS, Express, MangoDB, PHP, Vue JS, GIT, JIRA"
+        list: "Agile, Scrum, Node JS, PHP, GIT, JIRA"
     },
     {
         title: "Interests",
@@ -191,6 +191,7 @@ const proSummary = `2+ years of experience in building Responsive web applicatio
 Proficient in translating designs and wireframes into high-quality code, and writing application interface code via Javascript and ReactJS
 Proven track record of building reusable components.
 Experienced in Full-stack development.
+Worked in scrum teams.
 Excellent code debugging skills.
 Excellent analytical, problem-solving skills and self-motivated. Ability to adopt new technologies swiftly.`;
 
