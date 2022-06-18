@@ -86,7 +86,7 @@ const Resume = React.forwardRef((props, ref) => {
                 {contact.map((item,i)=>(
                     <Grid container item className={classes.flexWrap} alignItems="center">
                         <Typography style={{padding: "0 10px"}} variant="body1">{item.icon}</Typography>
-                        {i==2 ? <Link target="_blank" style={{color:"#fff", fontSize:"0.8rem", wordBreak: "break-all;", textDecoration: "underline"}} href={item.text}>{item.text}</Link> :<Typography style={{padding: "0 10px", wordBreak: "break-all;"}} variant="body1">{item.text}</Typography>}
+                        {i==2 ? <Link target="_blank" style={{color:"#fff", display:"block", fontSize:"0.8rem", wordBreak: "break-all;", textDecoration: "underline"}} href={item.text}>{item.text}</Link> :<Typography style={{padding: "0 10px", wordBreak: "break-all;"}} variant="body1">{item.text}</Typography>}
                     </Grid>
                 ))
                 }
@@ -107,7 +107,7 @@ const Resume = React.forwardRef((props, ref) => {
             ))}
             <Grid container className={classes.innerContainer} direction={"column"}>
             <Typography className={classes.sideHeadingColor} variant='h5'>Awards</Typography>
-
+                <br />         
                 {awards.map(item=>(
                     <Grid container item className={classes.flexWrap} alignItems="center">
                         <Typography style={{padding: "0 10px"}} variant="body1">{item.icon}</Typography>
@@ -187,7 +187,7 @@ const sideBarContents = [
 
 const name="Mohammad Vempalli"
 const designation = "Software Engineer";
-const proSummary = `2+ years of experience in building Responsive web applications.
+const proSummary = `2.5+ years of experience in building Responsive web applications.
 Proficient in translating designs and wireframes into high-quality code, and writing application interface code via Javascript and ReactJS
 Proven track record of building reusable components.
 Experienced in Full-stack development.
@@ -203,7 +203,7 @@ const workExperiance = [
             Developed highly reusable responsive components.
             Created reusable Address Typeahead component which is used across multiple pages on WHS's app.
             Integrated Redux throughout the Application
-            Integrated many APIS (SignUp, Login, Reset Password, Confirm Order) using Redux-thunk.
+            Integrated all APIS using Redux-thunk.
             Fixing critical Prod Defects.`
     },
     {
@@ -211,6 +211,7 @@ const workExperiance = [
         duration: "ACS Solutions | December 2019 - Febuary 2022",
         contribution: `Developed creation of opportunities and assigning resources to opportunities and display it front end in Pricing Sheet Application using React and Material UI.
         Integrated internal Analytics tool with react app with Event Driven Approach.
+        Managed state throughout the application using Redux
         Implemented the addition of projects, where projects contains set of forms where we can add the project details and for one project we can add n number of concepts and where we can add details of concepts and displaying the concepts in Sustainable Minds Project.
         Created the complex type of tree structure for adding materials inside the concepts in Sustainable Minds Project.
         Developed the ThreeJS Mini car game for learning and development team. `
