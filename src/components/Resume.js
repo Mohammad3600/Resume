@@ -81,7 +81,10 @@ const Resume = React.forwardRef((props, ref) => {
             <Avatar className={classes.imgStyles} alt="img" src={Mohammad} />
             
             <Grid container className={classes.innerContainer} direction={"column"}>
-            <Typography className={classes.sideHeadingColor} variant='h5'>Contact</Typography>
+                <Grid item>
+                <Typography className={classes.sideHeadingColor} variant='h5'>Contact</Typography>
+
+                </Grid>
 
                 {contact.map((item,i)=>(
                     <Grid container item className={classes.flexWrap} alignItems="center">
@@ -106,8 +109,11 @@ const Resume = React.forwardRef((props, ref) => {
             </Grid>
             ))}
             <Grid container className={classes.innerContainer} direction={"column"}>
+            <Grid item>
             <Typography className={classes.sideHeadingColor} variant='h5'>Awards</Typography>
-                <br />         
+
+            </Grid>
+                        
                 {awards.map(item=>(
                     <Grid container item className={classes.flexWrap} alignItems="center">
                         <Typography style={{padding: "0 10px"}} variant="body1">{item.icon}</Typography>
