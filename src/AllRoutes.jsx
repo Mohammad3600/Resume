@@ -18,9 +18,9 @@ const Links = ()=>{
         // minHeight: "100vh"
     }
     return <div style={styles}>
-        <Link to="/mohammad">{Mohammad.name}</Link>
-        <Link to="/basiri">{Basiri.name}</Link>
-        <Link to="/fayaz">{Fayaz.name}</Link>
+        <Link to={`/${Mohammad.path}`}>{Mohammad.name}</Link>
+        <Link to={`/${Basiri.path}`}>{Basiri.name}</Link>
+        <Link to={`/${Fayaz.path}`}>{Fayaz.name}</Link>
     </div>
 }
 
