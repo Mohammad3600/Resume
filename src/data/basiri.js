@@ -42,7 +42,7 @@ const sideBarContents = [
     },
     {
         title: "Interests",
-        list: "Layer3, MPLS features, Automation"
+        list: "Layer-2/Layer-3 features, MPLS, Automation"
     },
     {
         title: "Languagues",
