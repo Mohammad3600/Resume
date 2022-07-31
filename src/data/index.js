@@ -15,7 +15,8 @@ const contact = [
     },
     {
         icon: <LinkedInIcon />,
-        text: "https://www.linkedin.com/in/mohammad-vempalli-9b8765185/"
+        text: "https://www.linkedin.com/in/mohammad-vempalli-9b8765185/",
+        val: 2,
     }
 ];
 

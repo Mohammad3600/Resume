@@ -1,5 +1,5 @@
 import { makeStyles, Container, Box, Typography, Grid, ListItem, List, Avatar, Link } from '@material-ui/core';
-import {contact, Mohammad, awards, sideBarContents, name, designation, proSummary, workExperiance, education} from "../data/fayaz"
+import {contact, Mohammad, awards, sideBarContents, name, designation, proSummary, workExperiance, education} from "../data/basiri"
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import React from 'react';
 
@@ -37,7 +37,7 @@ const useStyles = makeStyles(()=>({
     imgStyles:{
         width: 200,
         margin: "auto",
-        height:200,
+        height:220,
         marginBottom: "1rem"
     },
     textAlignCenter:{
@@ -62,7 +62,7 @@ const Resume = React.forwardRef((props, ref) => {
                 {contact.map((item,i)=>(
                     <Grid container item className={classes.flexWrap} alignItems="center">
                         <Typography style={{padding: "0 10px"}} variant="body1">{item.icon}</Typography>
-                        {i==2 ? <Link target="_blank" style={{color:"#fff", display:"block", fontSize:"0.8rem", wordBreak: "break-all;", textDecoration: "underline"}} href={item.text}>{item.text}</Link> :<Typography style={{padding: "0 10px", wordBreak: "break-all;"}} variant="body1">{item.text}</Typography>}
+                        {item.val===i ? <Link target="_blank" style={{color:"#fff", display:"block", fontSize:"0.8rem", wordBreak: "break-all;", textDecoration: "underline"}} href={item.text}>{item.text}</Link> :<Typography style={{padding: "0 10px", wordBreak: "break-all;"}} variant="body1">{item.text}</Typography>}
                     </Grid>
                 ))
                 }

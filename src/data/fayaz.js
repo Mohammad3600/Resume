@@ -15,7 +15,8 @@ const contact = [
     },
     {
         icon: <LinkedInIcon />,
-        text: "https://www.linkedin.com/in/fayaz-shaik-550729153/"
+        text: "https://www.linkedin.com/in/fayaz-shaik-550729153/",
+        val: 2,
     }
 ];
 
