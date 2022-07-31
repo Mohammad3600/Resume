@@ -4,7 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TurnedInIcon from '@material-ui/icons/TurnedIn';
 import Mohammad from "../images/Mohammad.jpg";
 
-const path="";
+const path="mohammad";
 const contact = [
     {
         icon: <MailIcon />,
