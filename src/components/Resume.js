@@ -1,5 +1,5 @@
 import { makeStyles, Container, Box, Typography, Grid, ListItem, List, Avatar, Link } from '@material-ui/core';
-import {contact, Mohammad, awards, sideBarContents, name, designation, proSummary, workExperiance, education} from "../data/basiri"
+// import {contact, Mohammad, awards, sideBarContents, name, designation, proSummary, workExperiance, education} from "../data/basiri"
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import React from 'react';
 
@@ -45,7 +45,7 @@ const useStyles = makeStyles(()=>({
     }
 }));
 
-const Resume = React.forwardRef((props, ref) => {
+const Resume = React.forwardRef(({contact, Mohammad, awards, sideBarContents, name, designation, proSummary, workExperiance, education}, ref) => {
 
   const classes = useStyles();
   return (

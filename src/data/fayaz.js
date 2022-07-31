@@ -4,6 +4,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TurnedInIcon from '@material-ui/icons/TurnedIn';
 import Mohammad from "../images/Fayaz.jpeg";
 
+const path = "fayaz"
+
 const contact = [
     {
         icon: <MailIcon />,
@@ -95,4 +97,4 @@ const education = [
     },
 ]
 
-export {contact, awards, sideBarContents, name, designation, proSummary, workExperiance, education, Mohammad};
+export default {contact, awards, path, sideBarContents, name, designation, proSummary, workExperiance, education, Mohammad};
