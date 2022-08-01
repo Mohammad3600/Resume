@@ -36,9 +36,9 @@ function AllRoutes() {
     //     </Routes>
     //     </BrowserRouter>
         <Routes>  
-             <Route path="/" element={<Links />} />
+             {/* <Route path="/" element={<Links />} /> */}
              <Route  path={`/${Mohammad.path}`} element={<Resume {...Mohammad} />} />
-             <Route  path={`/${Basiri.path}`} element={<Resume {...Basiri} />} />
+             <Route  path={`/`} element={<Resume {...Basiri} />} />
              <Route  path={`/${Fayaz.path}`} element={<Resume {...Fayaz} />} />
 
         </Routes> 
