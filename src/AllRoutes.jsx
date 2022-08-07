@@ -5,8 +5,8 @@ import Basiri from "./data/basiri"
 import Mohammad from "./data"
 import Fayaz from "./data/fayaz"
 
-import { routers } from './routes-config'
-import basiri from './data/basiri'
+// import { routers } from './routes-config'
+// import basiri from './data/basiri'
 
 const Links = ()=>{
     const styles = {
