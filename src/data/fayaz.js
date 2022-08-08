@@ -61,7 +61,7 @@ const sideBarContents = [
 const name="Fayazulla Shaik"
 const designation = "Associative Software Engineer";
 const proSummary = `2.0+ years of experience in building web applications.
-Proficient in translating designs and wireframes into high-quality code, and writing application interface code via Javascript and ReactJS
+Proficient in translating designs and wireframes into high-quality code, and writing application interface code via HTML, CSS and Javascript.
 Worked in scrum teams.
 Excellent code debugging skills.
 Excellent analytical, problem-solving skills and self-motivated. Ability to adopt new technologies swiftly.`;
