@@ -45,13 +45,13 @@ const useStyles = makeStyles(()=>({
     }
 }));
 
-const Resume = React.forwardRef(({contact, Mohammad, awards, sideBarContents, name, designation, proSummary, workExperiance, education}, ref) => {
+const Resume = React.forwardRef(({contact, Image, awards, sideBarContents, name, designation, proSummary, workExperiance, education}, ref) => {
 
   const classes = useStyles();
   return (
     <Container ref={ref} m={0} className={classes.container}>
         <Box className={classes.box1}>
-            <Avatar className={classes.imgStyles} alt="img" src={Mohammad} />
+            <Avatar className={classes.imgStyles} alt="img" src={Image} />
             
             <Grid container className={classes.innerContainer} direction={"column"}>
                 <Grid item>

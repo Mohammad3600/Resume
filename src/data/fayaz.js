@@ -2,7 +2,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import PhoneIcon from '@material-ui/icons/Phone';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TurnedInIcon from '@material-ui/icons/TurnedIn';
-import Mohammad from "../images/Fayaz.jpeg";
+import Image from "../images/Fayaz1.jpg";
 
 const path = "fayaz"
 
@@ -97,4 +97,4 @@ const education = [
     },
 ]
 
-export default {contact, awards, path, sideBarContents, name, designation, proSummary, workExperiance, education, Mohammad};
+export default {contact, awards, path, sideBarContents, name, designation, proSummary, workExperiance, education, Image};
