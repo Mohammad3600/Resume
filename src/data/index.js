@@ -25,6 +25,10 @@ const awards = [
     {
         icon: <TurnedInIcon />,
         text: "Customer Expert, ACS Solutions"
+    },
+    {
+        icon: <TurnedInIcon />,
+        text: "2 Spot Awards - Tricon Infotech"
     }
 ]
 
@@ -35,7 +39,7 @@ const sideBarContents = [
     },
     {
         title: "Professional Summary-Exposure",
-        list: "Agile, Scrum, Node JS, PHP, GIT, JIRA"
+        list: "Agile, Scrum, Node JS, Express, MongoDB, PHP, GIT, JIRA"
     },
     {
         title: "Interests",
@@ -50,18 +54,29 @@ const sideBarContents = [
 
 const name="Mohammad Vempalli"
 const designation = "Software Engineer";
-const proSummary = `2.5+ years of experience in building Responsive web applications.
+const proSummary = `3.5+ years of experience in building Responsive web applications.
 Proficient in translating designs and wireframes into high-quality code, and writing application interface code via Javascript and ReactJS
 Proven track record of building reusable components.
 Experienced in Full-stack development.
 Worked in scrum teams.
 Excellent code debugging skills.
+Quick learner and ready to take challenges.
 Excellent analytical, problem-solving skills and self-motivated. Ability to adopt new technologies swiftly.`;
 
 const workExperiance = [
     {
+        designation: "Software Engineer | Front End Developer",
+        duration: "Tricon Infotech | July 2022 - present",
+        contribution: `Designed Entire responsiveness UI in the Leadzone application.
+            Created reusable table component which will have options to add, remove, sort column and pagination.
+            Created custom hooks and created so many reusable components.
+            Learnt the Playwright automation tool and have written automation testcases throughout the application.
+            Mentoring team members for their approach and best practices.
+            Given guidance to other team for their issues.`
+    },
+    {
         designation: "Software Development Consultant | Front End Developer",
-        duration: "ITC Infotech | Febuary 2022 - present",
+        duration: "ITC Infotech | Febuary 2022 - July 2022",
         contribution: `Developed Staff login pages in WHS website with React
             Developed highly reusable responsive components.
             Created reusable Address Typeahead component which is used across multiple pages on WHS's app.
