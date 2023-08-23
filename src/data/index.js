@@ -28,7 +28,7 @@ const awards = [
     },
     {
         icon: <TurnedInIcon />,
-        text: "2 Spot Awards - Tricon Infotech"
+        text: "3 Spot Awards - Tricon Infotech"
     }
 ]
 
@@ -54,7 +54,7 @@ const sideBarContents = [
 
 const name="Mohammad Vempalli"
 const designation = "Software Engineer";
-const proSummary = `3.5+ years of experience in building Responsive web applications.
+const proSummary = `3.7+ years of experience in building Responsive web applications.
 Proficient in translating designs and wireframes into high-quality code, and writing application interface code via Javascript and ReactJS
 Proven track record of building reusable components.
 Experienced in Full-stack development.

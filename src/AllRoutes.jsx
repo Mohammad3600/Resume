@@ -4,6 +4,7 @@ import Resume from './components/Resume'
 import Basiri from "./data/basiri"
 import Mohammad from "./data"
 import Fayaz from "./data/fayaz"
+import Salma from './data/salma'
 
 // import { routers } from './routes-config'
 // import basiri from './data/basiri'
@@ -21,6 +22,7 @@ const Links = ()=>{
         <Link to={`/${Mohammad.path}`}>{Mohammad.name}</Link>
         <Link to={`/${Basiri.path}`}>{Basiri.name}</Link>
         <Link to={`/${Fayaz.path}`}>{Fayaz.name}</Link>
+        <Link to={`/${Salma.path}`}>{Salma.name}</Link>
     </div>
 }
 
@@ -41,6 +43,7 @@ function AllRoutes() {
              <Route  path={`/${Mohammad.path}`} element={<Resume {...Mohammad} />} />
              <Route  path={`/${Basiri.path}`} element={<Resume {...Basiri} />} />
              <Route  path={`/${Fayaz.path}`} element={<Resume {...Fayaz} />} />
+             <Route  path={`/${Salma.path}`} element={<Resume {...Salma} />} />
 
         </Routes> 
         

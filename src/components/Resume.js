@@ -51,7 +51,7 @@ const Resume = React.forwardRef(({contact, Image, awards, sideBarContents, name,
   return (
     <Container ref={ref} m={0} className={classes.container}>
         <Box className={classes.box1}>
-            <Avatar className={classes.imgStyles} alt="img" src={Image} />
+            {Image && <Avatar className={classes.imgStyles} alt="img" src={Image} />}
             
             <Grid container className={classes.innerContainer} direction={"column"}>
                 <Grid item>
@@ -82,6 +82,7 @@ const Resume = React.forwardRef(({contact, Image, awards, sideBarContents, name,
             </Grid>
             ))}
             <Grid container className={classes.innerContainer} direction={"column"}>
+            
             <Grid item>
             <Typography className={classes.sideHeadingColor} variant='h5'>Awards</Typography>
 
@@ -138,11 +139,11 @@ const Resume = React.forwardRef(({contact, Image, awards, sideBarContents, name,
                     <>
                     <Typography variant='subtitle1' style={{marginTop: "10px"}}>{edu.standard}</Typography>
                     <Typography variant='subtitle2'>{edu.institution}</Typography>
-                    <ul>
+                    {edu.percentage && <ul>
                         <li style={{color:"#434343"}}>
                             <Typography variant='caption'>Percentage : {edu.percentage}</Typography>
                         </li>
-                    </ul>
+                    </ul>}
                     </>
                 ))}
                 </Grid>
